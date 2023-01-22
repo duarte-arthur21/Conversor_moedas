@@ -9,7 +9,7 @@ O projeto foi desenvolvido durante o decorrer da disciplina **Programação para
 A aplicação consiste em um calculadora que capaz de executar as operaçao (soma, subtração, multiplicação e divisão), além de possuir a função de mudança de estilo de Ligth para Dark.
 
 ## Layout Mobile
-![Layout Mobile](https://github.com/duarte-arthur21/Conversor_moedas/Mobile.png)
+![Layout Mobile](https://github.com/duarte-arthur21/Conversor_moedas/blob/main/Mobile.png)
 
 # Tecnologias utilizadas
 ## Back end
