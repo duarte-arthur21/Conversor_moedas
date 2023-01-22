@@ -4,9 +4,10 @@
 
 # Sobre o projeto
 
-O projeto foi desenvolvido durante o decorrer da disciplina **Programação para Dispositivos Movéis**, do curso de Sistemas para Internet do Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano.
+O projeto em questão é uma aplicação full stack mobile simples construída durante o decorrer da formação da **[Plural Systens]**(https://pluralsystems.com.br/).
 
-A aplicação consiste em um calculadora que capaz de executar as operaçao (soma, subtração, multiplicação e divisão), além de possuir a função de mudança de estilo de Ligth para Dark.
+A aplicação consiste em um conversor de moedas onde o usario digita um valor qualquer e esse valor pode ser convertido em Dolar, Euro ou Yuan, presumindo que o valor digitado seja em Real (Moeda brasileira).
+
 
 ## Layout Mobile
 ![Layout Mobile](https://github.com/duarte-arthur21/Conversor_moedas/blob/main/Mobile.png)
