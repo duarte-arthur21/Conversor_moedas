@@ -26,12 +26,14 @@ const estilo = StyleSheet.create({
     marginTop: "30%",
     marginBottom: "29%",
   },
-  backgroundImage: {
+  flag: {
     flex: 1,
     display: 'flex',
     position: 'absolute',
-    width: '100%',
-    height: '40%'
+    marginTop: '6%',
+    marginLeft: '10%',
+    width: '20%',
+    height: '35%'
   },
   resultado: {
     fontSize: 30,

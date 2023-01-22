@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {View, Text, TextInput, TouchableOpacity} from 'react-native'
+import {View, Text, TextInput, Image, TouchableOpacity} from 'react-native'
 import {estilo} from './Estilo'
 
 export function ConverteValor(){
@@ -11,7 +11,7 @@ export function ConverteValor(){
     const conv = num * 0.191998
     setResultado(conv)
 
-      setMsg(" R$ Dolares")
+      setMsg(" R$ Dolares ")
     }
 
   function euroReal(){
@@ -40,15 +40,21 @@ export function ConverteValor(){
 
        <Text style={estilo.titulo}>Agora converta o valor</Text>
             <TouchableOpacity onPress={()=> dolarReal()}>
-                <Text style={estilo.calcular}>Dolar EUA</Text>
+            <Image style={estilo.flag} source={require('./imagens/flag-us.png')}/>
+                <Text style={estilo.calcular}>
+                  Dolar EUA</Text>
             </TouchableOpacity>
 
             <TouchableOpacity onPress={()=> euroReal()}>
-                <Text style={estilo.calcular}>EURO</Text>
+            <Image style={estilo.flag} source={require('./imagens/flag-european.png')}/>
+                <Text style={estilo.calcular}>
+                  EURO</Text>
             </TouchableOpacity>
 
             <TouchableOpacity onPress={()=> yuanReal()}>
-                <Text style={estilo.calcular}>Yuan</Text>
+              <Image style={estilo.flag} source={require('./imagens/flag-china.png')}/>
+                <Text style={estilo.calcular}>
+                  Yuan</Text>
             </TouchableOpacity>
 
             <Text style={estilo.resultado}>{Math.round(resultado).toFixed(2)}{msg}</Text>
