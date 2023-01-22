@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-O projeto em questão é uma aplicação full stack mobile simples construída durante o decorrer da formação da **[Plural Systens]**(https://pluralsystems.com.br/).
+O projeto em questão é uma aplicação full stack mobile simples construída durante o decorrer da formação da [**Plural Systens**](https://pluralsystems.com.br/).
 
 A aplicação consiste em um conversor de moedas onde o usario digita um valor qualquer e esse valor pode ser convertido em Dolar, Euro ou Yuan, presumindo que o valor digitado seja em Real (Moeda brasileira).
 
