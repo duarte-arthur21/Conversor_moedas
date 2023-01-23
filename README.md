@@ -41,13 +41,13 @@ executar o seguinte comando:
 
 ```bash
 # clonar repositório
-git clone https://github.com/duarte-arthur21/Calculadora_App
+git clone https://github.com/duarte-arthur21/Conversor_moedas.git
 
 ```
 
 ```bash
 # Entre na Pasta do projeto
-No cmd excute: cd Calculadora_App
+No cmd excute: cd Conversor_moedas
 
 # Execute o Projeto
 No cmd excute: expo start
